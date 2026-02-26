@@ -1,0 +1,76 @@
+ /* p::selection{
+    background: #000;
+    
+}
+body{
+    background-image: url("a.webp");
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    background: linear-gradient(to right, #ff0000, #0000ff);
+} 
+
+ #box1{
+    background: linear-gradient(to right, #43aa35, #9e9ed3);
+    border: 2px solid #000;
+    height: 350px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 35px;
+    color: white;
+    
+}
+#box2{
+    background: linear-gradient(to right, #c780b1, #9e9ed3);
+    border: 2px solid #000;
+    height: 350px;
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 15px;
+} 
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: #fd9898;
+    margin: 10px;
+    border: 2px solid #000;
+    float: left;
+}
+
+p{
+    clear: left;
+
+} */
+
+
+#box1{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    font-size: 22px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+#box2{
+    border: 2px solid #000;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(161, 197, 250);
+    font-size: 22px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}

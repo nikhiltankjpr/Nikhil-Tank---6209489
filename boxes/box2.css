@@ -1,0 +1,31 @@
+#parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 149, 250);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 15px;
+}
+
+.cont{
+    background-color: rgb(255, 222, 248);
+    margin: 10px;
+    border-radius: 15px;
+}
+.c1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.c2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.c3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.c6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

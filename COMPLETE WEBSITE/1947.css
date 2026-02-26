@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+    url("1947.jpg") center/cover no-repeat;
+
+    color: white;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #ff6e1a;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+
+.left {
+    width: 95%;
+}
+
+.left h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #ff6e1a;
+}
+
+.left p {
+    margin-bottom: 18px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ff6e1a;
+    font-weight: bold;
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+
